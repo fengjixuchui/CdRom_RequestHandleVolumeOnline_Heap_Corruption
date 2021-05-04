@@ -1,0 +1,21 @@
+﻿Build started 11/10/2020 5:49:34 AM.
+     1>Project "C:\Users\walied\documents\visual studio 2012\Projects\RequestHandleVolumeOnline_Bug\RequestHandleVolumeOnline_Bug\RequestHandleVolumeOnline_Bug.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\RequestHandleVolumeOnline_Bug.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt RequestHandleVolumeOnline_Bug.cpp
+         RequestHandleVolumeOnline_Bug.cpp
+     1>c:\users\walied\documents\visual studio 2012\projects\requesthandlevolumeonline_bug\requesthandlevolumeonline_bug\Header.h(106): warning C4005: 'IOCTL_VOLUME_ONLINE' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.0\Include\um\winioctl.h(8622) : see previous definition of 'IOCTL_VOLUME_ONLINE'
+     1>RequestHandleVolumeOnline_Bug.cpp(32): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(1025) : see declaration of 'wcscpy'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\walied\documents\visual studio 2012\Projects\RequestHandleVolumeOnline_Bug\x64\Release\RequestHandleVolumeOnline_Bug.exe" /INCREMENTAL:NO /NOLOGO ntdll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\walied\documents\visual studio 2012\Projects\RequestHandleVolumeOnline_Bug\x64\Release\RequestHandleVolumeOnline_Bug.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\walied\documents\visual studio 2012\Projects\RequestHandleVolumeOnline_Bug\x64\Release\RequestHandleVolumeOnline_Bug.lib" /MACHINE:X64 x64\Release\Device.obj
+         x64\Release\RequestHandleVolumeOnline_Bug.obj
+         x64\Release\stdafx.obj
+         Generating code
+         Finished generating code
+         RequestHandleVolumeOnline_Bug.vcxproj -> C:\Users\walied\documents\visual studio 2012\Projects\RequestHandleVolumeOnline_Bug\x64\Release\RequestHandleVolumeOnline_Bug.exe
+     1>Done Building Project "C:\Users\walied\documents\visual studio 2012\Projects\RequestHandleVolumeOnline_Bug\RequestHandleVolumeOnline_Bug\RequestHandleVolumeOnline_Bug.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.60
