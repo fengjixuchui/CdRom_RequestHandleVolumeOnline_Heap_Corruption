@@ -1,0 +1,2 @@
+# CdRom_RequestHandleVolumeOnline_Heap_Corruption
+cdrom.sys!RequestHandleVolumeOnline Kernel Pool Corruption
